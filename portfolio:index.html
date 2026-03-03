@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Senuth Hee | Video Editor</title>
+  <meta name="description" content="Senuth Hee - Creative Video Editor specializing in cinematic storytelling, AI-enhanced edits and commercial video production." />
+  <link rel="icon" href="data:,">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #020617, #0f172a, #000000);
+      color: white;
+      scroll-behavior: smooth;
+    }
+
+    section {
+      padding: 100px 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 56px;
+      font-weight: 700;
+      background: linear-gradient(to right, #60a5fa, #2563eb);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    h2 {
+      font-size: 36px;
+      margin-bottom: 40px;
+    }
+
+    p {
+      color: #93c5fd;
+      max-width: 700px;
+      margin: 20px auto;
+      line-height: 1.6;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 30px;
+      border-radius: 14px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s ease;
+      margin: 10px;
+    }
+
+    .btn-primary {
+      background: #2563eb;
+      color: white;
+    }
+
+    .btn-primary:hover {
+      background: #1d4ed8;
+      transform: translateY(-3px);
+      box-shadow: 0 10px 25px rgba(37, 99, 235, 0.4);
+    }
+
+    .btn-whatsapp {
+      background: #16a34a;
+      color: white;
+    }
+
+    .btn-whatsapp:hover {
+      background: #15803d;
+      transform: translateY(-3px);
+      box-shadow: 0 10px 25px rgba(22, 163, 74, 0.4);
+    }
+
+    .btn-discord {
+      background: #4f46e5;
+      color: white;
+    }
+
+    .btn-discord:hover {
+      background: #4338ca;
+      transform: translateY(-3px);
+      box-shadow: 0 10px 25px rgba(79, 70, 229, 0.4);
+    }
+
+    .showreel iframe {
+      width: 90%;
+      max-width: 900px;
+      height: 500px;
+      border-radius: 20px;
+      box-shadow: 0 0 40px rgba(37, 99, 235, 0.4);
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .card {
+      background: rgba(15, 23, 42, 0.6);
+      padding: 20px;
+      border-radius: 20px;
+      backdrop-filter: blur(10px);
+      transition: 0.4s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 0 30px rgba(59, 130, 246, 0.4);
+    }
+
+    .card iframe {
+      width: 100%;
+      height: 250px;
+      border-radius: 15px;
+      margin-bottom: 15px;
+    }
+
+    footer {
+      padding: 40px;
+      font-size: 14px;
+      color: #64748b;
+    }
+
+    @media(max-width:768px){
+      h1 { font-size: 36px; }
+      h2 { font-size: 28px; }
+      .showreel iframe { height: 250px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero -->
+  <section>
+    <h1>Senuth Hee</h1>
+    <p>Creative Video Editor | Cinematic Storytelling | AI-Enhanced Visual Effects</p>
+    <a href="#showreel" class="btn btn-primary">Watch Showreel</a>
+  </section>
+
+  <!-- Showreel -->
+  <section id="showreel" class="showreel">
+    <h2>Showreel 2026</h2>
+    <iframe 
+      src="https://www.youtube.com/embed/FK0HCUqIH7Y"
+      title="Showreel 2026"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </section>
+
+  <!-- Projects -->
+  <section>
+    <h2>Featured Projects</h2>
+    <div class="projects">
+
+      <div class="card">
+        <iframe 
+          src="https://www.youtube.com/embed/FK0HCUqIH7Y"
+          title="Cinematic Short Edit"
+          frameborder="0"
+          allowfullscreen>
+        </iframe>
+        <h3>Cinematic Short Edit</h3>
+        <p>High-impact short-form edit with dynamic cuts, speed ramps, and punchy sound design.</p>
+      </div>
+
+      <div class="card">
+        <iframe 
+          src="https://www.youtube.com/embed/FK0HCUqIH7Y"
+          title="Commercial Style Reel"
+          frameborder="0"
+          allowfullscreen>
+        </iframe>
+        <h3>Commercial Style Reel</h3>
+        <p>Clean commercial-style editing with cinematic color grading and smooth motion graphics.</p>
+      </div>
+
+      <div class="card">
+        <iframe 
+          src="https://www.youtube.com/embed/FK0HCUqIH7Y"
+          title="Story Driven Edit"
+          frameborder="0"
+          allowfullscreen>
+        </iframe>
+        <h3>Story Driven Edit</h3>
+        <p>Engaging storytelling with subtitles, pacing control, and immersive transitions.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section>
+    <h2>Let's Work Together</h2>
+    <a href="https://instagram.com/YOURUSERNAME" target="_blank" class="btn btn-primary">Instagram</a>
+    <a href="https://wa.me/94743902168" target="_blank" class="btn btn-whatsapp">WhatsApp</a>
+    <a href="https://discord.gg/YOURINVITE" target="_blank" class="btn btn-discord">Discord</a>
+  </section>
+
+  <footer>
+    © 2026 Senuth Hee. All rights reserved.
+  </footer>
+
+</body>
+</html>
